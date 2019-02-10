@@ -1,0 +1,27 @@
+ <!-- <p>
+ {{ncard.firstname1}}{{ncard.lastname1}}
+ {{ncard.name}}
+</p>-->
+<style>
+  .d-flew{
+
+  }
+  .mt-3{
+
+  }
+</style>
+<div class=d-flex flex-row mt-3>
+  <p class="p-3 align-self-center box">{{ncard.votes1}}</p>
+  <div>
+    <div class="media">
+        <div class="media-body">
+      <h5 class="mt-5">{{ncard.name}}</h5>
+      <div>
+        <a href="#"(click)="up()"><i class="fas fa-arrow-up">upvote</i></a>
+        &nbsp;
+        <a href="#"(click)="down()"><i class="fas fa-arrow-down">downvote</i></a>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
